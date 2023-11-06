@@ -82,6 +82,8 @@ class ImageBgResponsive extends ResponsiveImageFormatter {
       $vars = [
         'uri' => $this->getUri($file),
         'responsive_image_style_id' => $responsive_image_style_setting,
+        'height' => '100%',
+        'width' => '100%',
       ];
       template_preprocess_responsive_image($vars);
 

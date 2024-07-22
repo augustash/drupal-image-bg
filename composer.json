@@ -1,7 +1,7 @@
 {
   "name": "augustash/image_bg",
   "description": "Display images as background images within elements.",
-  "type": "drupal-custom-module",
+  "type": "drupal-module",
   "license": "proprietary",
   "homepage": "https://github.com/augustash/drupal-image-bg",
   "support": {

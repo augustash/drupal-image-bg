@@ -1,5 +1,5 @@
 name: Image BG
 type: module
 description: Display images as background images within elements.
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^9.3 || ^10 || ^11
 package: Custom

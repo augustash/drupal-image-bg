@@ -58,7 +58,7 @@ class ImageBg extends ImageFormatter {
         $image_url = $image_style->buildUrl($file->getFileUri());
       }
       else {
-        $image_url = file_create_url($file->getFileUri());
+        $image_url = \Drupal::service('file_url_generator')->generateAbsoluteString($file->getFileUri());
       }
 
       $elements[] = [

@@ -1,0 +1,11 @@
+field.formatter.settings.image_bg:
+  type: field.formatter.settings.image
+  label: 'Image background formatter settings'
+
+field.formatter.settings.image_bg_responsive:
+  type: field.formatter.settings.responsive_image
+  label: 'Responsive image background formatter settings'
+
+field.formatter.settings.image_bg_media_responsive:
+  type: field.formatter.settings.responsive_image
+  label: 'Responsive media image background formatter settings'
